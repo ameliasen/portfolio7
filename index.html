@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="nav.html">
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+  </head>
+  
+
+<style>
+.home{
+  text-decoration: underline !important;
+  color: rgb(83, 84, 84);
+  font-size: 20px;
+}
+</style>
+
+
+<body>
+  
+  <div id="navbar-container"></div>
+<script src="navbar.js"></script>
+
+
+
+<div id="includeFooter"></div>
+
+    <script>
+        $(function() {
+            $("#includeFooter").load("footer.html");
+        });
+    </script>
+
+
+
+<div id="frist-div">
+  <div id="portfolio-div"><h1 id="portfolio">PORTFOLIO</h1>
+    <h2 class="heading-h2">I'm a <span class="highlight">Full Stack </span> Developer</h2>
+    <button><a href="index.html">View Portfolio</a></button></div>
+  
+   <div id="frist-image">
+      <img src="Project/contact.jpg" alt="">
+      
+   </div>
+   
+</div>
+
+                                                                                                       
+
+<div id="main-sec-div">
+ 
+    <div id="sec-h1"><h1>About Me</h1>
+    <button><a href="about.html">View More</a></button></div>
+
+<div id="sec-div">
+
+  
+
+  <div><h5>Passionate Designer</h5>
+
+  <p>With a keen eye for detail and a love for crafting beautiful
+    user-centric expriences.
+  </p></div>
+
+
+  <div><h5>Creative Problem-Solver</h5>
+
+  <p>Adept at tackling complex challenges and delivering innovaive 
+    innovative solutions.
+  </p></div>
+
+  <div><h5>Collborative teammate</h5>
+
+    <p>Adept at tackling complex challenges and delivering 
+     innovative solutions.
+    </p></div>
+
+
+</div>
+
+</div>
+
+
+<div id="third-div">
+  <div id="contact-head">
+    <h1>Contact Me</h1>
+    <button><a href="contact.html">View More</a></button>
+  </div>
+
+  <div class="contact-section">
+    <div class="contact-title" onclick="toggleContent(this)">Get in touch for new opportunities</div>
+    <div class="contact-content">
+      I'm always excited to discuss new projects and collaborate with talented individuals. 
+      Feel free to reach out, and let's chat about how I can contribute to your next big idea.
+    </div>
+  </div>
+  
+  <div class="contact-section">
+    <div class="contact-title" onclick="toggleContent(this)">Get in touch for new opportunities</div>
+    <div class="contact-content">
+      I'm always excited to discuss new projects and collaborate with talented individuals. 
+      Feel free to reach out, and let's chat about how I can contribute to your next big idea.
+    </div>
+  </div>
+</div>
+
+
+<div id="four-div">
+  <div class="my-work">
+
+    <h1>Project</h1>
+    <button><a href="project.html">View More</a></button>
+    <div class="work-container">
+        <!-- UI/UX Design -->
+        <div class="work-item">
+            <h2>UI/UX Design</h2>
+            <p>Crafting intuitive and visually appealing digital experiences.</p>
+            <div class="circle">1</div>
+        </div>
+
+        <!-- Responsive Web Design -->
+        <div class="work-item">
+            <h2>Responsive Web Design</h2>
+            <p>Building modern, mobile-first websites that perform across devices.</p>
+            <div class="circle">2</div>
+        </div>
+
+        <!-- Branding & Identity -->
+        <div class="work-item">
+            <h2>Branding & Identity</h2>
+            <p>Developing cohesive and memorable brand assets.</p>
+            <div class="circle">3</div>
+        </div>
+    </div>
+</div>
+</div>
+
+<div class="content">
+  <!-- Your page content goes here -->
+</div>
+
+<div id="footer-placeholder"></div>
+<script src="footer.js"></script>
+    <script src="script.js"></script>
+
+
+</body>
+</html>

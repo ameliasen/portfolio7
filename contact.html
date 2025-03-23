@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="contact style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+
+<style>
+      
+.contact{
+  text-decoration: underline !important;
+  
+  color: rgb(83, 84, 84);
+  font-size: 20px;
+}
+</style>
+<body>
+ 
+
+
+  <div id="navbar-container"></div>
+  <script src="navbar.js"></script>
+  
+
+  <div id="includeFooter"></div>
+
+  <script>
+      $(function() {
+          $("#includeFooter").load("footer.html");
+      });
+  </script>
+
+    <div class="container">
+        <div class="left-section">
+            <h1>Let's discuss on something <span style="color:#85ecb5; font-size:57px;">cool</span> together</h1>
+            <div class="contact-info">
+                <p>✉ anjalikumari@gmail.com</p>
+                <p>📞 +123 456 789</p>
+                <p>📍 828121 Dhanbad Jharkhand</p>
+            </div>
+        </div>
+        <div class="right-section">
+            <p>I'm interested in...</p>
+            <div class="interest-buttons">
+                <button class="active">UI/UX design</button>
+                <button>Web design</button>
+                <button>Graphic design</button>
+                <button>Design system</button>
+                <button>Other</button>
+            </div>
+            <form id="contactForm">
+                <input type="text" id="name" placeholder="Your name">
+                <div class="error" id="nameError"></div>
+                
+                <input type="email" id="email" placeholder="Your email">
+                <div class="error" id="emailError"></div>
+                
+                <input type="tel" id="phone" placeholder="Your mobile number">
+                <div class="error" id="phoneError"></div>
+                
+                <input type="text" id="address" placeholder="Your address">
+                <div class="error" id="addressError"></div>
+                
+                <textarea id="message" placeholder="Your message"></textarea>
+                <div class="error" id="messageError"></div>
+                
+                <button type="submit" class="btn">&#9993; Send Message</button>
+            </form>
+        </div>
+    </div>
+
+        
+      <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+   
+      <script>
+        $(function() {
+           $("#includeHTML").load("nav/nav.html");
+        });
+     </script>
+
+<div class="content">
+  <!-- Your page content goes here -->
+</div>
+
+<div id="footer-placeholder"></div>
+<script src="footer.js"></script>
+    <script src="script.js"></script>
+
+
+
+</body>
+</html>
